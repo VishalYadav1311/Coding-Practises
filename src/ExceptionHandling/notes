@@ -1,0 +1,37 @@
+Throwable(root class)
+├── Error
+└── Exception
+    ├── CheckedException (complile time exceptions)
+    └── RuntimeException
+
+
+Exception::- 	Problems that the application can handle or recover from.
+                Exceptions are caused by incorrect application logic or data.
+                Typically handled using try-catch blocks or declared with throws.
+                example: File not found, invalid user input, database connection issues.
+
+
+Error:-          Problems that the application cannot handle or recover from.
+                 Errors are caused by JVM or resource failures (e.g., memory).
+                 Includes critical JVM-related errors like VirtualMachineError.
+                 example: Running out of heap memory, infinite recursion causing stack overflow.
+
+
+CheckedException (complile time exceptions):-
+                    Exceptions that are checked at compile time.
+                    They are declared using the throws keyword in the method signature or try-catch blocks.
+                    example: IOException, FileNotFoundException, SQLException.
+
+
+RuntimeException:-These are runtime exceptions that occur due to programming errors.
+                  The compiler does not enforce handling of these exceptions,
+                  but they can be handled optionally using try-catch.
+                  example: NullPointerException, IndexOutOfBoundsException, ArithmeticException.
+
+
+
+
+
+                  git remote add origin https://github.com/VishalYadav1311/Coding-Practises.git
+                  git branch -M main
+                  git push -u origin main

@@ -1,0 +1,4 @@
+learn about lambda
+functional interface
+compartor ,comparable
+hashmap internal working
